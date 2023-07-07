@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap');
-body{
-    font-family: 'Khand', sans-serif; font-size: 50px;
-    background-color: #FFFDB2;
+
+body {
+    font-family: 'Khand', sans-serif;
+    font-size: 50px;
+    background-color: #FFF966;
 }
-h1{
-    text-align: center; color: darkgreen;
+div{
+    color: darkgreen;
+    font-size: 80px;
+    font-weight: bold;
 }

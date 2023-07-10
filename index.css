@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Khand', sans-serif;
+
 }
 
 h1 {
@@ -9,4 +10,15 @@ h1 {
     margin-top: -120px;
     color: darkgreen;
     text-align: center;
+    border-bottom-style: solid;
+}
+
+th {
+    font-size: 40px;
+    color: darkgreen;
+    border-right-style: solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right-color: darkgreen;
+    clear: initial;
 }

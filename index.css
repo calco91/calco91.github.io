@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Khand', sans-serif;
-
+    background-image: url("sfondo1.png");
+    background-size: cover;
 }
-
 h1 {
     font-size: 90px;
     margin-top: -120px;
@@ -20,5 +20,4 @@ th {
     padding-right: 10px;
     padding-left: 10px;
     border-right-color: darkgreen;
-    clear: initial;
 }

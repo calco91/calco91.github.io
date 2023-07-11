@@ -3,6 +3,7 @@
 body {
     font-family: 'Khand', sans-serif;
     font-size: 40px;
+    color: darkgreen;
     background: linear-gradient(0.75turn,
     yellow, white)
 }
@@ -15,25 +16,18 @@ h1 {
     text-align: center;
 }
 
-h2 {
-    color: darkgreen;
-}
-
 table {
-    margin-left: 70px;
-    margin-top: -50px;
+    border: 2px solid darkgreen;
+    border-collapse: collapse;
 }
 
-img {
-    border-style: solid;
-    border-color: darkgreen;
-    width: 250px;
-    height: 310px;
+th {
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid darkgreen;
 }
 
 td {
-    font-size: 30px;
-    color: darkgreen;
-    padding-left: 65px;
-    text-align: center;
+    font-size: 40px;
+    border: 2px solid darkgreen;
 }

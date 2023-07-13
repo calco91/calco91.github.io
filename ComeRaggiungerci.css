@@ -1,20 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
+html{
+    margin-right: 30px;
+}
 body {
     font-family: 'Khand', sans-serif;
-    background:linear-gradient(0.75turn,
-    yellow, white)
+    background:linear-gradient(yellow,darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
+iframe{
+    margin-left: 50px;
+}
 h1 {
     font-size: 80px;
     margin-top: -20px;
     margin-bottom: 20px;
-    color: darkgreen;
+    color: #1E2A5C;
     text-align: center;
 }
 
 p {
     font-size: 35px;
-    text-align: center;
+    text-align: left;
+    color: #1E2A5C;
+    float: right;
+}
+img{
+    height: 80px;
+    width: 80px;
 }

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Khand', sans-serif;
+    font-size: 40px;
+    color: #1E2A5C;
+    background: linear-gradient(yellow, darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table {
+    border: 2px solid #1E2A5C;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #1E2A5C;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    border: 2px solid #1E2A5C;
+}
+
+td {
+    border: 2px solid #1E2A5C;
+    text-align: center;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}

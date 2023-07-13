@@ -3,22 +3,26 @@
 body {
     font-family: 'Khand', sans-serif;
     font-size: 40px;
-    background: linear-gradient(0.75turn,
-    yellow, white)
+    background: linear-gradient(yellow, darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     font-size: 80px;
     margin-top: -20px;
     margin-bottom: 20px;
-    color: darkgreen;
+    color: #1E2A5C;
     text-align: center;
 }
 
 h2 {
-    color: darkgreen;
+    color: #1E2A5C;
 }
-
+a{
+    text-decoration: none;
+    color: #1E2A5C;
+}
 table {
     margin-top: -50px;
 
@@ -26,7 +30,7 @@ table {
 
 img {
     border-style: solid;
-    border-color: darkgreen;
+    border-color: #1E2A5C;
     width: 250px;
     height: 310px;
 
@@ -34,7 +38,11 @@ img {
 
 td {
     font-size: 30px;
-    color: darkgreen;
+    color: #1E2A5C;
     padding-left: 65px;
     text-align: center;
+}
+{
+    height: 80px;
+    width: 80px;
 }

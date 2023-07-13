@@ -3,16 +3,17 @@
 body {
     font-family: 'Khand', sans-serif;
     font-size: 40px;
-    color: darkgreen;
-    background:linear-gradient(0.75turn,
-    yellow, white)
+    color: #1E2A5C;
+    background:linear-gradient(yellow,darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
     font-size: 80px;
     margin-top: -20px;
     margin-bottom: 20px;
-    color: darkgreen;
+    color: #1E2A5C;
     text-align: center;
 }
 input{
@@ -24,4 +25,8 @@ button{
 tr{
     font-size: 40px;
     text-align: left;
+}
+img{
+    height: 80px;
+    width: 80px;
 }

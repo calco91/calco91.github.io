@@ -19,15 +19,19 @@ h1 {
 h2 {
     color: #1E2A5C;
 }
-a{
+
+a {
     text-decoration: none;
     color: #1E2A5C;
 }
+
 table {
     margin-top: -50px;
 
 }
-
+a{
+    font-weight: bold;
+}
 img {
     border-style: solid;
     border-color: #1E2A5C;
@@ -41,8 +45,4 @@ td {
     color: #1E2A5C;
     padding-left: 65px;
     text-align: center;
-}
-{
-    height: 80px;
-    width: 80px;
 }

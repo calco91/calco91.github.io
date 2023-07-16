@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-
+#logo{
+border-style: none;
+    width: 80px;
+    height: 80px;
+}
 body {
     font-family: 'Khand', sans-serif;
     font-size: 40px;

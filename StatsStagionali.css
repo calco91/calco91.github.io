@@ -5,6 +5,8 @@ body {
     font-size: 40px;
     color: #1E2A5C;
     background: linear-gradient(yellow,darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {

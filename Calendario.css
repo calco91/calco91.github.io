@@ -9,7 +9,7 @@ body {
     background-attachment: fixed;
 }
 
-table {
+#risultati {
     border: 2px solid #1E2A5C;
     border-collapse: collapse;
 }
@@ -22,12 +22,15 @@ h1 {
     text-align: center;
 }
 
-th {
+
+#risultati th {
     text-align: center;
     padding-left: 180px;
     padding-right: 180px;
     border: 2px solid #1E2A5C;
 }
+
+
 
 td {
     border: 2px solid #1E2A5C;

@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
-html{
+html {
     margin-right: 30px;
 }
+
 body {
     font-family: 'Khand', sans-serif;
-    background:linear-gradient(yellow,darkgreen);
+    background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-iframe{
+
+iframe {
     margin-left: 50px;
 }
+
 h1 {
     font-size: 80px;
     margin-top: -20px;
@@ -20,13 +23,21 @@ h1 {
     text-align: center;
 }
 
-p {
+h6 {
     font-size: 35px;
-    text-align: left;
-    color: #1E2A5C;
-    float: right;
+    margin-top: -150px;
+    margin-bottom: -2px;
 }
-img{
+
+div {
+    font-size: 35px;
+    color: #1E2A5C;
+    position: relative;
+    left: 700px;
+    top: -5px;
+}
+
+img {
     height: 80px;
     width: 80px;
 }

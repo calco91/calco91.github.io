@@ -23,11 +23,25 @@ body {
     margin: 0 auto;
 }
 
-.container>li>a {
+ul {
     display: flex;
-    color: #1E2A5C;
-    text-decoration: none;
     list-style-type: none;
+    font-size: 25px;
+    margin-left: -1.5em;
+}
+
+li {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5em;
+    font-weight: bold;
+    border: solid;
+    background: #1E2A5C;
+    border-radius: .5em;
+    color: white;
 }
 
 h1 {
@@ -35,18 +49,17 @@ h1 {
     font-size: 5em;
     color: #1E2A5C;
     border-bottom: solid #1E2A5C;
-
-
+    text-align: right;
 }
 
 img {
     display: flex;
-    height: 15em;
-    width: 15em;
+    height: 25em;
+    width: 25em;
     margin-left: auto;
-    margin-top: 1.5em;
+    margin-top: 5em;
 }
 
 a:hover {
-    color: red;
+    color: yellow;
 }

@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
-html {
-    margin-right: 30px;
+:root {
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 body {
@@ -12,29 +25,12 @@ body {
 }
 
 iframe {
-    margin-left: 50px;
+    margin: 400px;
 }
 
 h1 {
-    font-size: 80px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    color: #1E2A5C;
     text-align: center;
-}
-
-h6 {
-    font-size: 35px;
-    margin-top: -150px;
-    margin-bottom: -2px;
-}
-
-div {
-    font-size: 35px;
-    color: #1E2A5C;
-    position: relative;
-    left: 700px;
-    top: -5px;
+    font-size: 80px;
 }
 
 img {

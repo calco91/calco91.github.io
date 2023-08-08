@@ -1,51 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
+:root {
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+}
+
 body {
     font-family: 'Khand', sans-serif;
     background-image: url("campo.png");
     background-size: cover;
-    background-attachment: fixed;
 }
 
-a {
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container>li>a {
+    display: flex;
     color: #1E2A5C;
     text-decoration: none;
-}
-
-table {
-    margin-top: 200px;
+    list-style-type: none;
 }
 
 h1 {
-    font-size: 90px;
+    margin-left: auto;
+    font-size: 5em;
     color: #1E2A5C;
-    text-align: right;
-    border-bottom-style: solid;
-}
+    border-bottom: solid #1E2A5C;
 
-#rosa {
-    border-left-style: solid;
-    padding-left: 10px;
-}
 
-th {
-    font-size: 40px;
-    color: #1E2A5C;
-    border-right-style: solid;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-right-color: #1E2A5C;
-    position: relative;
-    left: 400px;
 }
 
 img {
-    height: 350px;
-    width: 350px;
-    margin-top: 20px;
-    margin-bottom: -20px;
-    position: relative;
-    left: 1500px;
+    display: flex;
+    height: 15em;
+    width: 15em;
+    margin-left: auto;
+    margin-top: 1.5em;
 }
 
 a:hover {

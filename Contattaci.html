@@ -5,35 +5,28 @@
     <title>CONTATTACI</title>
     <link rel="stylesheet" href="Contattaci.css">
 </head>
-<a href="index.html"><img src="LOGO.png"></a>
+
 <body>
-<h1>Contattaci</h1>
-<center>
-<form autocomplete="on">
-    <table>
-        <tr>
-            <th><label for="name">Nome:</label></th>
-            <th><input id="name" type="text" name="name" required></th>
-        </tr>
-        <tr>
-            <td><label for="lastname"><strong>Cognome:</strong></label></td>
-            <td><input id="lastname" type="text" name="lastname"></td>
-        </tr>
-        <tr>
-            <td><label for="Email"><strong>Email:</strong></label></td>
-            <td><input id="Email" type="email" name="email" required><br></td>
-        </tr>
-        <tr>
-            <td><label for="Messaggio"><strong>Messaggio:</strong></label></td>
-            <td><textarea name="Messaggio" id="Messaggio" cols="30" rows="10" required></textarea></td>
-        </tr>
-        <tr>
-            <td>
-                <button type="submit"><strong>Invia</strong></button>
-            </td>
-        </tr>
-    </table>
-</form>
-</center>
+<div class="container">
+    <a href="index.html"><img src="LOGO.png" alt="logo"></a>
+    <h1>Contattaci</h1>
+    <div class="main">
+        <form autocomplete="on">
+            <ul>
+                <li><label for="name">Nome:</label></li>
+                <li><input id="name" type="text" name="name" required></li>
+                <li><label for="lastname"><strong>Cognome:</strong></label></li>
+                <li><input id="lastname" type="text" name="lastname"></li>
+                <li><label for="Email"><strong>Email:</strong></label></li>
+                <li><input id="Email" type="email" name="email" required></li>
+                <li><label for="Messaggio"><strong>Messaggio:</strong></label></li>
+                <li><textarea name="Messaggio" id="Messaggio" cols="30" rows="10" required></textarea></li>
+                <li>
+                    <button type="submit"><strong>Invia</strong></button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
 </body>
 </html>

@@ -10,11 +10,18 @@
 
 body * + * {
     margin-top: 1.5em;
+    color: #1E2A5C;
 }
+
 
 .container {
     max-width: 1080px;
     margin: 0 auto;
+}
+
+img {
+    height: 80px;
+    width: 80px;
 }
 
 body {
@@ -25,7 +32,8 @@ body {
 }
 
 iframe {
-    margin: 400px;
+    display: flex;
+    margin: auto;
 }
 
 h1 {
@@ -33,7 +41,17 @@ h1 {
     font-size: 80px;
 }
 
-img {
-    height: 80px;
-    width: 80px;
+.article h6 {
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.article p {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.article {
+    text-align: center;
 }

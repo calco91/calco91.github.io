@@ -62,4 +62,20 @@ img {
 
 a:hover {
     color: yellow;
+    transition: all .3s ease-out;
+}
+@media screen and (min-width: 320px){
+    :root{
+        width: 710px;
+    }
+    h1{
+        text-align: center;
+    }
+    img{
+        margin: 3em 8em 1.5em 8.8em;
+    }
+    li {
+        font-size: 16px;
+        margin-left: 3px;
+    }
 }

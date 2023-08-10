@@ -64,7 +64,7 @@ a:hover {
     color: yellow;
     transition: all .3s ease-out;
 }
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 768px){
     :root{
         width: 710px;
     }

@@ -1,52 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-#logo{
-border-style: none;
-    width: 80px;
-    height: 80px;
+
+:root {
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    color: #1E2A5C;
 }
 body {
     font-family: 'Khand', sans-serif;
-    font-size: 40px;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-h1 {
+h1, h2{
+    text-align: center;
     font-size: 80px;
     margin-top: -20px;
-    margin-bottom: 20px;
-    color: #1E2A5C;
-    text-align: center;
+    margin-bottom: 20px;}
+img{
+    width: 50%;
+    margin: 0;
+    border: solid 5px #1E2A5C;
 }
 
-h2 {
-    color: #1E2A5C;
-}
-
-a {
-    text-decoration: none;
-    color: #1E2A5C;
-}
-
-table {
-    margin-top: -50px;
-
-}
-a{
-    font-weight: bold;
-}
-img {
-    border-style: solid;
-    border-color: #1E2A5C;
-    width: 250px;
-    height: 310px;
-
-}
-
-td {
-    font-size: 30px;
-    color: #1E2A5C;
-    padding-left: 65px;
-    text-align: center;
-}
+/*.allenatori {*/
+/*    display: grid;*/
+/*    grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));*/
+/*    grid-template-rows: 1fr;*/
+/*    grid-gap: 0.5em;*/
+/*}*/
+/*.portieri{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    grid-template-rows: 1fr;*/
+/*    align-items: stretch;*/
+/*    justify-items: center;*/
+/*}*/

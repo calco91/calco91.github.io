@@ -13,33 +13,90 @@
     margin: 0 auto;
     color: #1E2A5C;
 }
+
 body {
     font-family: 'Khand', sans-serif;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1, h2{
+
+#logo {
+    height: 80px;
+    width: 80px;
+    border: none;
+}
+
+h1, h2 {
     text-align: center;
     font-size: 80px;
     margin-top: -20px;
-    margin-bottom: 20px;}
-img{
-    width: 50%;
-    margin: 0;
-    border: solid 5px #1E2A5C;
+    margin-bottom: 20px;
 }
 
-/*.allenatori {*/
-/*    display: grid;*/
-/*    grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));*/
-/*    grid-template-rows: 1fr;*/
-/*    grid-gap: 0.5em;*/
-/*}*/
-/*.portieri{*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    grid-template-rows: 1fr;*/
-/*    align-items: stretch;*/
-/*    justify-items: center;*/
-/*}*/
+img {
+    margin: 0;
+    border: solid 5px #1E2A5C;
+    width: 100%;
+    height: auto;
+}
+
+.allenatori {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.allenatori > a {
+    display: flex;
+}
+
+.portieri {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.portieri > a {
+    display: flex;
+}
+
+.difensori > a {
+    display: flex;
+}
+
+.difensori {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.centrocampisti {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.centrocampisti > a {
+    display: flex;
+}
+
+.attaccanti {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.attaccanti > a {
+    display: flex;
+}

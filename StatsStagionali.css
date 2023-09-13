@@ -28,10 +28,11 @@ h1 {
 }
 
 table {
-    border: 2px solid #1E2A5C;
     border-collapse: collapse;
     font-size: 30px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 th {

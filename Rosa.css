@@ -11,7 +11,6 @@
 .container {
     max-width: 1080px;
     margin: 0 auto;
-    color: #1E2A5C;
 }
 
 body {
@@ -19,6 +18,8 @@ body {
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #1E2A5C;
+
 }
 
 #logo {
@@ -26,16 +27,37 @@ body {
     width: 80px;
     border: none;
 }
+h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: #1E2A5C;
+    text-align: center;
+}
+h2{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #1E2A5C;
+    text-align: center;
+}
 h5{
     text-align: center;
+    font-size: 1.5em;
 }
 .card{
     justify-content: center;
+
 }
 .col-sm{
     display: flex;
     justify-content: center;
+    padding: 0.5em;
 }
 img{
     height: 21rem;
+}
+#home{
+    margin-top: 20px;
+    height: 80px;
+    width: 80px;
 }

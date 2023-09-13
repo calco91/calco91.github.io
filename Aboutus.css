@@ -1,17 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
 
+:root {
+    box-sizing: border-box;
+}
+
+*, :before, :after {
+    box-sizing: inherit;
+}
+
+body * + * {
+    margin-top: 1.5em;
+    color: #1E2A5C;
+}
+
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Khand', sans-serif;
-    font-size: 40px;
     color: #1E2A5C;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-#risultati {
-    border: 2px solid #1E2A5C;
-    border-collapse: collapse;
+img {
+    height: 80px;
+    width: 80px;
 }
 
 h1 {
@@ -20,24 +38,4 @@ h1 {
     margin-bottom: 20px;
     color: #1E2A5C;
     text-align: center;
-}
-
-
-#risultati th {
-    text-align: center;
-    padding-left: 180px;
-    padding-right: 180px;
-    border: 2px solid #1E2A5C;
-}
-
-
-
-td {
-    border: 2px solid #1E2A5C;
-    text-align: center;
-}
-
-img {
-    height: 80px;
-    width: 80px;
 }

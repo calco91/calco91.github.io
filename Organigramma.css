@@ -11,7 +11,6 @@
 }
 body {
     font-family: 'Khand', sans-serif;
-    font-size: 40px;
     color: #1E2A5C;
     background: linear-gradient(yellow, darkgreen);
     background-repeat: no-repeat;
@@ -29,7 +28,18 @@ h1 {
 p{
     border-bottom-style: solid;
 }
-img {
+#LOGO {
     height: 80px;
     width: 80px;
+}
+footer{
+    text-align: center;
+}
+#insta{
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
+}
+.organigramma{
+    font-size: 40px;
 }

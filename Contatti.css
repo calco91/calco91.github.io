@@ -19,50 +19,50 @@ body * + * {
     margin: 0 auto;
 }
 
-body {
-    font-family: 'Khand', sans-serif;
-    font-size: 40px;
-    color: #1E2A5C;
-    background: linear-gradient(yellow, darkgreen);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 img {
     height: 80px;
     width: 80px;
 }
 
+body {
+    font-family: 'Khand', sans-serif;
+    background: linear-gradient(yellow, darkgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1 {
-    font-size: 80px;
-    margin-top: -20px;
-    margin-bottom: 20px;
-    color: #1E2A5C;
+    text-align: center;
+    font-size: 60px;
+    margin: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article {
+    margin: 0 2em;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 25px;
+}
+.recapiti{
+    font-size: 25px;
+}
+footer{
     text-align: center;
 }
-main{
-    display: flex;
-    margin: auto;
-}
-label {
-    font-weight: bold;
-}
-
-input {
-    display: flex;
-    margin-bottom: 1.5em;
-    font-size: 20px;
-}
-
-button {
-    font-size: 20px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 1.5em;
-    margin-top: -2.5em;
-}
-ul>li{
-    margin: 0;
+#insta{
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
 }

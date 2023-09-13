@@ -61,3 +61,15 @@ img{
     height: 80px;
     width: 80px;
 }
+#giuse{
+    margin-left:44px;
+}
+footer{
+    text-align: center;
+    margin: 20px;
+}
+#insta{
+    height: 40px;
+    width: 40px;
+    border-radius: .5em;
+}
